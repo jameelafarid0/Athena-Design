@@ -1,5 +1,5 @@
 import React from 'react';
-import './DoDetails.css'
+import './DoDetails.css';
 
 const DoDetails = ({ option }) => {
     const { name, description, image } = option;

@@ -1,8 +1,8 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import './Navbar.css'
-import logo from  '../../../images/Group 86.png'
+import logo from '../../../images/Group 86.png';
+import './Navbar.css';
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
                     <img src={logo} alt="" width="100px"/>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" style={{color: 'pink'}}>
-                    <FontAwesomeIcon icon={faBars} />
+                    <FontAwesomeIcon icon={faBars}/>
                     </span>
                 </button>
 
