@@ -1,0 +1,49 @@
+.buttonThree{
+    color: white;
+    font-size: 13px;
+    font-family: monospace;
+    background: rgb(58,237,193);
+    background: linear-gradient(145deg, rgba(58,237,193,1) 12%, rgba(22,195,229,1) 58%);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 600ms, visibility 600ms;
+   
+
+}
+
+.card{
+    height:450px;
+   
+}
+
+.card:hover{
+    border:1px solid #3CEDCE;
+    
+}
+
+
+
+.card:hover .buttonThree{
+    visibility: visible;
+    opacity: 1;
+    display:absolute;
+    right:500px;
+}
+
+hr {
+    margin-right: 5%;
+    width: 90%;
+    border-top: 2px solid #4FD1CB;
+    transition: width 0.5s ease, margin-right 0.5s ease;
+  }
+
+.card:hover hr{
+    width:0px;
+
+}
+
