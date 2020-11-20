@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 .running {
   height: 500px;
 }
 p {
-  color: grey;
+  color: rgb(190, 190, 190);
+}
+.p3{
+  width: 400px;
+  font-size: 12px;
 }
 .common-btn {
   color: white;
@@ -18,4 +23,52 @@ p {
   border-bottom-right-radius: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.h1-stay{
+  font-family: 'Yeseva One', cursive;
+  font-size: 35px;
+  color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .width{
+    width: 350px;
+    margin-left: 45px;
+  }
+
+  .h1-stay{
+    font-family: 'Yeseva One', cursive;
+    font-size: 45px;
+    color: black;
+    width: 330px;
+    position: relative;
+    right: 60px;
+    margin-top: 40px;
+  }
+
+  .p3{
+    width: 420px;
+    font-size: 22px;
+    position: relative;
+    right: 60px;
+  }
+
+  .common-btn{
+    background-image: linear-gradient(45deg, rgb(14, 188, 217), rgb(29, 219, 182));
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    color: white;
+    padding: 20px 45px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    font-size: 23px;
+    position: relative;
+    right: 60px;
+    margin-bottom: 55px;
+  }
+
+  
+
 }

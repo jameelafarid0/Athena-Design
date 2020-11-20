@@ -8,15 +8,14 @@ const WhatWeDo = () => {
     return (
         <div>
             <div className="background">
-                
-               <h2 className="text-center pt-5">What we do</h2>
-                <div style={{textAlign:"center", marginTop:"10px"}}>
-                    <p className="p">our main focus is to make the user experience very <br/> simple and easy simplicity is our strength</p>
+                <div  >
+                    <h2 className="pt-5 h2"  >What we do</h2>
                 </div>
-
-
-                <div className="d-flex" style={{marginLeft:"72px"}}>
-                    <div className="  row   pt-3">
+                <div style={{ textAlign: "center" }}>
+                    <p className="p">our main focus is to make the user experience very <br /> simple and easy simplicity is our strength</p>
+                </div>
+                <div className="d-flex">
+                    <div className="row pt-3 mb-5" style={{marginLeft:"113px"}}>
                         {
                             options.map(option => <DoDetails
                                 option={option}
@@ -25,9 +24,6 @@ const WhatWeDo = () => {
                         }
                     </div>
                 </div>
-
-
-
             </div>
         </div>
     );

@@ -6,9 +6,9 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className="container-md">
+        <div className="container">
             <nav className="navbar navbar-expand-lg navbar-expand-md pt-2 ">
-                    <img src={logo} alt="" width="100px"/>
+                    <img className="relative" src={logo} alt="" width="100px"/>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" style={{color: 'pink'}}>
                     <FontAwesomeIcon icon={faBars}/>
@@ -32,7 +32,7 @@ const Navbar = () => {
                         <li className="nav-item mr-3 ml-3">
                             <a className="nav-link" href="#">Contact</a>
                         </li>
-                        <button className="btn common-btn">Contact us</button>
+                        <button className="common-btn" >Contact us</button>
                     </ul>
                 </div>
             </nav>

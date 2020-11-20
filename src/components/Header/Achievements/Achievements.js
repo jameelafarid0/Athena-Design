@@ -6,20 +6,17 @@ import project from "../../../images/transportation@2x.png";
 import "./Achievements.css";
 const Achievements = () => {
     return (
-        <div className="achievements mb-5">
-
-           <div className="container-sm container-md">
-
-                <div className="row">
-
+        <div>
+           <div className="achievements">
+                <div className="row margin padding-left">
                     <div className = "mt-5 col-md-5 col-12 d-flex align-items-center">
-                       <div>
-                            <h1>Our Achievements</h1>
-                            <p className="mt-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.the point of using lorem ipsum that it has more-or-less normal distribution of letter </p>
+                       <div className="top">
+                            <h1 className="h1">Our Achievements</h1>
+                            <p className="mt-4 p5">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.the point of using lorem ipsum that it has more-or-less normal distribution of letter </p>
                        </div>
                     </div>
 
-                    <div className="col-md-7">
+                    <div className="col-md-7 padding-right top-1">
 
                         <div className="row mt-5">
 

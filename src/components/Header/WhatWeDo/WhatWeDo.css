@@ -1,18 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 .h2 {
-  width: 550px;
-  margin-bottom: 0px;
-  margin-left: 400px;
-  margin-top: 20px;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-family: 'Yeseva One', cursive;
 }
 .p {
-  color: rgb(196, 196, 196);
-  font-size: 12px;
+  color: rgb(189, 189, 189);
+  font-size: 15px;
+  margin-top: 10px;
 }
+
+
 
 .background {
   background-color: rgb(247, 255, 254);
-  height: 510px;
+  max-height: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Yeseva One', cursive;
+  }
+  .p {
+    color: rgb(196, 196, 196);
+    font-size: 22px;
+    width: 330px;
+    margin-left: 70px;
+  }
+  
+
+}
+

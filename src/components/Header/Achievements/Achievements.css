@@ -1,30 +1,25 @@
 .achievements {
-  height: 350px;
   background-color: rgb(247, 255, 254);
 }
 .box-1 {
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
   box-shadow: 1px 0px 38px -2px rgba(220, 220, 220, 0.75);
   background-color: white;
   padding: 30px;
   color: rgb(80, 80, 80);
 }
 .box-1:hover {
-  background: rgb(58, 237, 193);
-  background: linear-gradient(
-    145deg,
-    rgba(58, 237, 193, 1) 12%,
-    rgba(22, 195, 229, 1) 58%
-  );
+  
+background: linear-gradient(34deg, rgba(36,130,199,1) 0%, rgba(43,230,209,1) 70%, rgba(119,238,200,1) 100%);
   color: white;
   font-family: Helvetica;
   font-weight: bold;
 }
 
 .box-2 {
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
   box-shadow: 1px 0px 38px -2px rgba(220, 220, 220, 0.75);
   background-color: white;
   padding: 30px;
@@ -41,4 +36,60 @@
   color: white;
   font-family: Helvetica;
   font-weight: bold;
+
+}
+
+.p5{
+  font-size: 15px;
+  width: 400px;
+}
+.h1{
+  font-family: 'Yeseva One', cursive;
+  font-size: 35px;
+  color: black;
+}
+
+.padding-left{
+  padding-left: 80px;
+}
+
+.padding-right{
+padding-right: 80px;
+}
+@media screen and (max-width: 800px) {
+  .margin{position: relative;
+    top: 300px;
+  }
+
+  .p5{
+    font-size: 20px;
+    width: 400px;
+    position: relative;
+    right: 35px;
+  }
+  
+  .h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    color: black;
+    position: relative;
+    right: 35px;
+  }
+  
+  .achievements {
+    margin-top: 370px;
+    height: 1200px;
+    background-color: rgb(247, 255, 254);
+  }
+  
+  .top{
+    position: relative;
+    bottom: 240px;
+  }
+
+  .top-1{
+    position: relative;
+    bottom: 200px;
+  }
+
 }
