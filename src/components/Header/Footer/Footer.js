@@ -38,50 +38,50 @@ const Footer = () => {
                         <div className="col-md-2 mx-auto">
 
 
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled links">
 
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Features</a>
                                 </li>
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Enterprise</a>
                                 </li>
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Pricing</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-md-2 mx-auto">
 
-                            <ul className="list-unstyled">
-                                <li>
+                            <ul className="list-unstyled links">
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Blog</a>
                                 </li>
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Help Center</a>
                                 </li>
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Contact Us</a>
                                 </li>
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Status</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-md-2 mx-auto">
 
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled links">
 
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">About Us</a>
-                                </li>
-                                <li>
+                                </li >
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Web Design</a>
                                 </li>
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Terms of Service</a>
                                 </li>
-                                <li>
+                                <li className="links-2">
                                     <a href="#" className="text-dark">Login</a>
                                 </li>
 
