@@ -4,6 +4,7 @@ import fb from '../../../Illustration/facebook-logo-in-circular-shape@2x.png'
 import twitter from './../../../Illustration/twitter (4)@2x.png'
 import linkedin from './../../../Illustration/linkedin (2)@2x.png'
 import dibble from '../../../Illustration/dribbble (1)@2x.png'
+import './Footer.css'
 
 
 const Footer = () => {
@@ -13,38 +14,21 @@ const Footer = () => {
                 <div className="container text-center text-md-left">
                     <div className="row">
                         <div className="col-md-4 mx-auto">
-                            <div className="col">
+                            <div className="col mr-5 pr-5">
                                 <div className="d-flex justify-content-center" >
                                     <img width="130px" src={logo} alt="" />
                                 </div>
-                                {/* <div className="row">
-                                    <div className="col">
-                                        <img width="20px" src={fb} alt="" />
-                                    </div>
-                                    <div className="col">
-                                        <img width="20px" src={fb} alt="" />
-                                    </div>
-                                    <div className="col"> 
-                                        <img width="20px" src={fb} alt="" />
-                                    </div >
-                                    <div className="col">
-                                        <img width="20px" src={fb} alt="" />
-                                    </div>
-                                    <div className="col">
-                                        <img width="20px" src={fb} alt="" />
-                                    </div>
-                                </div> */}
-                                <div className=" d-flex justify-content-around">
+                                <div className=" d-flex align">
                                     <div className="">
                                         <img width="20px" src={fb} alt="" />
                                     </div>
-                                    <div className="">
+                                    <div className="items">
                                         <img width="20px" src={twitter} alt="" />
                                     </div>
-                                    <div className=""> 
+                                    <div className="items"> 
                                         <img width="20px" src={linkedin} alt="" />
                                     </div >
-                                    <div className="">
+                                    <div className="items">
                                         <img width="20px" src={dibble} alt="" />
                                     </div>
                                     

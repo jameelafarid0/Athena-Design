@@ -5,7 +5,6 @@ import Footer from './components/Header/Footer/Footer';
 import Home from './components/Header/Home/Home';
 import Prices from './components/Header/Prices/Prices';
 import StayRunning from './components/Header/StayRunning/StayRunning';
-import Team from './components/Header/Team/Team';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Home></Home>
       <StayRunning/>
       <Achievements/>
-      <Team/>
       <Prices/>
       <Email/>
       <Footer/>
